@@ -1,0 +1,18 @@
+{
+	"name": "isimo",
+	"version": "0.1.0-alpha",
+	"description": "",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/index.js",
+		"typings": "description/index.d.ts"
+	},
+	"scripts": {
+		"build": "conc npm:build:*",
+		"build:rspack": "rspack",
+		"build:types": "tsc --emitDeclarationOnly"
+	},
+	"keywords": [],
+	"author": "LAlex <lalex@lalex.com>",
+	"license": "MIT"
+}
