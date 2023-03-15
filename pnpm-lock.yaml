@@ -20,7 +20,7 @@ importers:
   packages/react:
     specifiers:
       '@types/react': ^18.0.28
-      isimo: workspace:0.1.0-alpha
+      isimo: workspace:0.1.0
       react: ^18.2.0
     dependencies:
       isimo: link:../core
