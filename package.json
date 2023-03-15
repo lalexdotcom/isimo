@@ -1,12 +1,16 @@
 {
-	"devDependencies": {
-		"@changesets/cli": "^2.26.0",
-		"@rspack/cli": "^0.1.0",
-		"concurrently": "^7.6.0",
-		"typescript": "^4.9.5"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/lalexdotcom/isimo.git"
-	}
+  "scripts": {
+    "prePublish": "changeset",
+    "publish": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@rspack/cli": "^0.1.0",
+    "concurrently": "^7.6.0",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lalexdotcom/isimo.git"
+  }
 }
