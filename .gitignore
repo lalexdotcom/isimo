@@ -103,3 +103,4 @@ dist
 # TernJS port file
 .tern-port
 .pnpm-store
+.DS_Store

@@ -1,4 +1,4 @@
-import { Actions, State, Store } from "isimo";
+import type { Actions, State, Store } from "isimo";
 import { useSyncExternalStore } from "react";
 
 export function useStore<TState extends State, TActions extends Actions>(store: Store<TState, TActions>) {

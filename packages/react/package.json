@@ -1,11 +1,15 @@
 {
 	"name": "@isimo/react",
 	"version": "0.1.0-alpha",
-	"description": "",
+	"description": "React hook for isimo",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lalexdotcom/isimo.git"
+	},
 	"main": "src/index.ts",
 	"publishConfig": {
 		"main": "dist/index.js",
-		"typings": "description/index.d.ts"
+		"typings": "dist/index.d.ts"
 	},
 	"scripts": {
 		"build": "conc npm:build:*",

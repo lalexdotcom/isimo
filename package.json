@@ -3,5 +3,9 @@
 		"@rspack/cli": "^0.1.0",
 		"concurrently": "^7.6.0",
 		"typescript": "^4.9.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lalexdotcom/isimo.git"
 	}
 }
