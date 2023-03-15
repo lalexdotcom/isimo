@@ -14,4 +14,3 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
 RUN corepack enable \
     && corepack prepare pnpm@7.29.3 --activate
 
-RUN echo $TZ > /etc/timezone
