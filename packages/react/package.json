@@ -1,6 +1,6 @@
 {
 	"name": "@isimo/react",
-	"version": "0.1.0-alpha",
+	"version": "0.1.0",
 	"description": "React hook for isimo",
 	"repository": {
 		"type": "git",
@@ -27,6 +27,6 @@
 		"react": "^18.2.0"
 	},
 	"dependencies": {
-		"isimo": "workspace:0.1.0-alpha"
+		"isimo": "workspace:0.1.0"
 	}
 }

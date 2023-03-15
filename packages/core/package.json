@@ -1,6 +1,6 @@
 {
 	"name": "isimo",
-	"version": "0.1.0-alpha",
+	"version": "0.1.0",
 	"description": "Keep your state simple",
 	"repository": {
 		"type": "git",
